@@ -137,6 +137,29 @@
                 text-align: center;
             }
 
+            header.active {
+                display: block;
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+            }
+
+            header.active .logo {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+            }
+
+            header .cta-button {
+                display: none;
+            }
+
+            .main-section {
+                background-position: 68% top;
+                margin-top: 92px;
+            }
+
             .main-section h1 {
                 font-size: 1.8rem;
             }
@@ -151,7 +174,7 @@
     <!-- Google Ads Tag Placeholder -->
     <!-- Insert your Google Ads Tag script here -->
 
-    <header>
+    <header class="active">
         <div class="logo">
             <img src="./images/logo_sistema_viral.png" alt="Product Image" width="60"> <span>Sistema Viral</span>
         </div>
