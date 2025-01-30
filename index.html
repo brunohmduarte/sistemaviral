@@ -146,7 +146,6 @@
             }
 
             header.active .logo {
-                width: 100%;
                 display: flex;
                 justify-content: center;
             }
@@ -157,7 +156,7 @@
 
             .main-section {
                 background-position: 68% top;
-                margin-top: 92px;
+                margin-top: 5rem;
             }
 
             .main-section h1 {
@@ -165,14 +164,25 @@
             }
 
             .main-section p {
-                font-size: 1rem;
+                /* font-size: 1rem; */
+            }
+
+            .main-section .cta-button {
+                width: 90%;
             }
         }
     </style>
 </head>
 <body>
-    <!-- Google Ads Tag Placeholder -->
-    <!-- Insert your Google Ads Tag script here -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11564496877"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'AW-11564496877');
+    </script>
 
     <header class="active">
         <div class="logo">
@@ -180,12 +190,10 @@
         </div>
         <a href="https://kiwify.app/JEMBRCN?afid=yqBlyYsf" class="cta-button">Como isso é possível?</a>
     </header>
-
     <section class="main-section">
         <h1>Aprenda uma nova habilidade que irá transformar sua vida, geram uma renda extra de 2 á 20 mil reais/mês.</h1>
         <p>Com essa nova habilidade você irá aprender como trabalhar de casa e ganhar dinheiro com o Sistema Viral, sem aparecer, investir, criar conteúdo e o melhor de tudo. Utiliazando a inteligência artificial como sua aliada.</p>
         <a href="https://kiwify.app/JEMBRCN?afid=yqBlyYsf" class="cta-button">Como isso é possível?</a>
     </section>
-
 </body>
 </html>
